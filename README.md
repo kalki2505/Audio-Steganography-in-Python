@@ -1,0 +1,2 @@
+# Audio-Steganography-in-Python
+Audio Steganography is the art of embedding secret messages(text, images, etc.) into audio files. Transmitter - Reciever side is successfully designed. The transmitter side contains the sequence of blocks of text compression, huffmann encoding, embedding the encoded compressed message in .wav files. The reciever side is followed by extraction of LSB from each sample, Huff-mann decoding and finally decompression.
